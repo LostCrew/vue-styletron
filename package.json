@@ -34,7 +34,8 @@
     "babel-preset-env": "^1.5.2",
     "jest": "^20.0.4",
     "regenerator-runtime": "^0.10.5",
-    "standard": "^10.0.2"
+    "standard": "^10.0.2",
+    "vue": "^2.3.4"
   },
   "scripts": {
     "lint": "standard",
