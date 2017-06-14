@@ -1,6 +1,7 @@
 # vue-styletron
 
 [![Travis](https://img.shields.io/travis/LostCrew/vue-styletron.svg)](Build)
+[![David](https://img.shields.io/david/LostCrew/vue-styletron.svg)](dependencies)
 [![David](https://img.shields.io/david/dev/LostCrew/vue-styletron.svg)](DevDependencies)
 [![npm](https://img.shields.io/npm/l/vue-styletron.svg)](License)
 
