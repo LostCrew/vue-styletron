@@ -1,0 +1,62 @@
+{
+  "name": "vue-styletron",
+  "version": "0.1.0",
+  "description": "Styletron for Vue.js",
+  "author": "Emanuele Marchi <emanuele@lostcrew.it>",
+  "homepage": "https://github.com/LostCrew/vue-styletron",
+  "keywords": [
+    "styletron",
+    "styletronjs",
+    "css-in-js",
+    "vue",
+    "vuejs",
+    "javascript",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LostCrew/vue-styletron.git"
+  },
+  "bugs": "https://github.com/LostCrew/vue-styletron/issues",
+  "contributors": [],
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "styletron": "^2.5.7",
+    "styletron-utils": "^2.5.4"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "devDependencies": {
+    "babel-jest": "^20.0.3",
+    "babel-preset-env": "^1.5.2",
+    "jest": "^20.0.4",
+    "regenerator-runtime": "^0.10.5",
+    "standard": "^10.0.2"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && jest",
+    "coverage": "npm run test -- --coverage",
+    "prepublish": "npm run test"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "standard": {
+    "globals": [
+      "define",
+      "it",
+      "expect",
+      "describe",
+      "beforeAll"
+    ]
+  },
+  "peerDependencies": {
+    "vue": "^2.3.4"
+  }
+}
